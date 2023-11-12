@@ -12,12 +12,12 @@ h2 {
   margin: 0 0 20px 0;
 }
 
-#header-mobile {
-  display: none;
-}
-
 p {
   margin: 0 0 0 5%;
+}
+
+#header-mobile {
+  display: none;
 }
 
 header {
