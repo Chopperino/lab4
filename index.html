@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>MDR-Ordering</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="header-pc">
+          <li><a href="">Home</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+        <div id="header-mobile">
+
+          <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+              <a href="#">Home</a>
+              <a href="#">Catalog</a>
+              <a href="#">About</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="header-text">
+        <h1 id="pc-header">MDR-Ordering</h1>
+        <h1 id="mobile-header">MDR</h1>
+      </div>
+    </header>
+
+    <main>
+      <div id="searchbar" class="container">
+        <form action="/form/submit" method="GET">
+          <input
+            type="text"
+            name="text"
+            class="search"
+            placeholder="Пошук вашої улюбленої страви"
+          />
+          <input type="submit" name="submit" class="submit" value="Знайти" />
+        </form>
+      </div>
+
+      <div id="lists">
+        <div class="with-list container">
+          <h2>Топ продаж</h2>
+          <ol class="top-list">
+            <li>Піца "Чотири сири"</li>
+            <li>Борщ "Домашній"</li>
+            <li>Компот "Бабусин"</li>
+            <li>Вареники</li>
+          </ol>
+        </div>
+        <div class="with-list container">
+          <h2>Категорії товарів</h2>
+          <ul class="top-list">
+            <li>Перше</li>
+            <li>Друге</li>
+            <li>Напої</li>
+            <li>Десерти</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container" id="table">
+        <h2>Готові обіди</h2>
+        <table>
+          <tr>
+            <th>Назва</th>
+            <th>Перше</th>
+            <th>Друге</th>
+            <th>Напій</th>
+            <th>Десерт</th>
+          </tr>
+          <tr>
+            <td>Традиційний</td>
+            <td>Борщ "Домашній</td>
+            <td>Вареники</td>
+            <td>Компот "Бабусин"</td>
+            <td>Вергуни</td>
+          </tr>
+          <tr>
+            <td>"На всі випадки життя"</td>
+            <td>Суп</td>
+            <td>Котлета "По-київськи"</td>
+            <td>Сік яблучний</td>
+            <td>Пудинг</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 - MDR-Ordering</p>
+    </footer>
+  </body>
+</html>
